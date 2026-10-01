@@ -1,0 +1,13 @@
+{
+  "name": "agent-vs-agent-hacker-vs-developer",
+  "version": "1.0.0",
+  "description": "Adversarial security automation: a Hacker agent proves weaknesses with failing tests, a Developer agent fixes them, round after round until the app is production-ready. Zero dependencies.",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "harden": "node src/index.js",
+    "report": "node src/index.js --report",
+    "test": "node --test"
+  }
+}
